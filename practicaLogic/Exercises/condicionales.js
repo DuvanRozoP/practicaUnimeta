@@ -52,6 +52,7 @@ switch (true) {
  */
 function validate(name, password) {
   if (name.length === 0) return 'nombre esta vacio';
+  if (name.length === 0) return 'nombre esta vacio';
 }
 
 module.exports = validate;
