@@ -50,6 +50,8 @@ switch (true) {
  *
  * TIPS: para saber el tamano de un string o de un array deberas usar el ".length"
  */
-function validate(name, password) {}
+function validate(name, password) {
+  if (name.length === 0) return 'nombre esta vacio';
+}
 
 module.exports = validate;
